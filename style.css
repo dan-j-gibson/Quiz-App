@@ -20,8 +20,14 @@ header {
     flex-direction: row;
     margin: 0px;
     border-style: dashed;
-  }
- 
+}
+
+.image {
+    border-style:dashed;
+    border-color:#ff0000;
+    border-width: 1px;
+    flex: 1;
+}
 
 .question {
     border-style:dashed;

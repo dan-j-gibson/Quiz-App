@@ -1,7 +1,14 @@
+/* Your styles should be mobile-first and responsive */
 
+/** 
+  * If you are unclear on how to utilize a mobile-first, responsive technique to write your CSS, here is an example: 
+  *
+  * https://github.com/andreacardybailey/responsive_example/blob/master/styles/responsive-base.css 
+  *
+*/
 
-.container {
-    background: #dad8d8;
+body {
+    background: #e0e4a6;
     padding: 20px;
 }
 
@@ -9,11 +16,17 @@ header {
     text-align: center;
 }
 
-.question-container {
-    border-style:dashed;
+.answers {
+    border-style: groove; 
     border-color:#0000ff;
     border-width: 1px;
+    padding: 10px;
 }
+
+button {
+    margin-top: 10px;
+}
+
 
 .question-changes {
     display: flex;

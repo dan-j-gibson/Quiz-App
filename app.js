@@ -111,6 +111,7 @@ function welcomeScreen() {
             <div class="answers">
               ${generateanswerOptions()}
             </div>
+            <div class="score">Score: ${STORE.score}/${STORE.questions.length}</div>
           </div>
           <button type="submit" id="submit-answer-btn" >Submit</button>
           <button type="button" id="next-question-btn" > Next >></button>
